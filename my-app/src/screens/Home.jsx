@@ -1,21 +1,25 @@
-import React from 'react'
-import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
-
-export default function Home() {
-    return (
-        <div>
-            <div>
-                <Navbar />
-            </div>
-            <div>
-                body
-            </div>
-            <div>
-                <Footer/>
-            </div>
+import React from "react";
+import Navbar from "../Components/layouts/Navbar";
+import Footer from "../Components/layouts/Footer";
 
 
+const Home = () => {
+  return (
+    <>
+
+      <Navbar />
+      <div class="container-fluid">
+        <div class="heading">
+          <h2>This is Home page</h2>
         </div>
-    )
-}
+        <div class="paragraph">
+          <p>This is a paragraph within the grid content.</p>
+        </div>
+      </div>
+      <Footer />
+
+    </>
+  );
+};
+
+export default Home;
