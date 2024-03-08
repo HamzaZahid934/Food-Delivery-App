@@ -1,38 +1,35 @@
 /* Custom Navbar Styles */
 .navbar-background {
-  border: none;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background-color: black !important; /* Background color */
+  
+  background-color: rgba(255, 255, 255, 0.456) !important;  
+  backdrop-filter: blur(100px) !important; /* Background color */
 }
 .navbar-brand {
   
   margin-left: 40px;
   margin-right: 50px;
-  font-size: 30px;
-  color:  white !important; /* Brand color */
+  padding-right: 10px;
+  font-size: 25px;
+  color: #C3073F!important; /* Brand color */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: italic;
   font-weight: bold; /* Brand font weight */
-  transition: color 0.3s ease, text-shadow 0.3s ease;
-}
-.navbar-brand:hover{
-color: #8860D0 !important;
-transform: scale(1.01);
-text-shadow: #ffffff;
-
-
+ 
 }
 
+.navbar-toggler{
+color: #C3073F;
+}
 .navbar-nav .nav-link {
+  text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: italic;
-  color: #ffffff !important; /* Link color */
-  font-size: 18px;
+  color:#C3073F !important; /* Link color */
+  font-size: 20px;
     
 }
 .navbar-btn {
-  background-color: #8860D0;
+  background-color: #950740;
   border: none;
   border-radius: 5px;
   margin-right: 15px;
@@ -42,7 +39,7 @@ text-shadow: #ffffff;
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for transform and box-shadow */
 }
 .navbar-btn:hover {
-  background-color: #7a4abf;
+  background-color:#C3073F;
   transform: scale(1.05); /* Increase scale on hover */
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.767); /* Add box shadow on hover */
 }

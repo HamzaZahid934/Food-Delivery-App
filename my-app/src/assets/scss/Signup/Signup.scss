@@ -1,0 +1,82 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.container {
+   
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.359);  
+    backdrop-filter: blur(100px); /* Semi-transparent white background */
+    padding: 30px;
+    padding-bottom: 40px; /* Add some padding to the form container */
+    border: 2px solid; /* Add a border with a color */
+    border-radius: 10px; /* Make the edges round */
+    
+  }
+  .logo{
+
+height: 150px;
+width: auto;
+
+  }
+  .form-label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .form-control {
+    background-color: white;
+    width: 100%;
+  }
+  
+  .btn-primary-signup {
+    background-color: #950740;
+    border: none;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 150px;
+    border-radius: 5px;
+    padding: 8px 25px; /* Adjust padding as needed */
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .btn-primary-signup:hover {
+    background-color:#C3073F;
+  transform: scale(1.05); /* Increase scale on hover */
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.767);
+  }
+  
+  .link{
+    color: white;
+    
+    margin-left: 150px;
+  }
+  .link:hover{
+  color: #C3073F;
+  transform: scale(1);
+  }
+
+
+  
